@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio | Gabriel Jonathan Yehuda Silaban</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-sm shadow-sm z-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16 items-center">
+                <span class="font-bold text-xl text-blue-600">Gabriel.</span>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#tentang" class="text-slate-600 hover:text-blue-600 font-medium transition">Tentang Saya</a>
+                    <a href="#pendidikan" class="text-slate-600 hover:text-blue-600 font-medium transition">Pendidikan</a>
+                    <a href="#pengalaman" class="text-slate-600 hover:text-blue-600 font-medium transition">Pengalaman</a>
+                    <a href="#keahlian" class="text-slate-600 hover:text-blue-600 font-medium transition">Keahlian</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="pt-32 pb-20 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+        <div class="flex-1 text-center md:text-left">
+            <h2 class="text-blue-600 font-semibold tracking-wide uppercase text-sm mb-2">Portofolio Mahasiswa</h2>
+            <h1 class="text-4xl sm:text-5xl font-bold text-slate-900 mb-4">
+                Gabriel Jonathan <br> <span class="text-blue-600">Yehuda Silaban</span>
+            </h1>
+            <p class="text-lg text-slate-600 mb-8 max-w-2xl mx-auto md:mx-0">
+                Mahasiswa Teknik Industri yang berfokus pada teknologi, manajemen, analisis sistem, dan peningkatan efisiensi proses.
+            </p>
+            <div class="flex justify-center md:justify-start gap-4 mb-6">
+                <a href="mailto:silabangabriel98@gmail.com" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-medium hover:bg-blue-700 transition flex items-center gap-2">
+                    <i class="fa-solid fa-envelope"></i> Hubungi Saya
+                </a>
+                <a href="#pengalaman" class="bg-white text-slate-700 border border-slate-300 px-6 py-3 rounded-lg font-medium hover:bg-slate-50 transition">
+                    Lihat Pengalaman
+                </a>
+            </div>
+            
+            <!-- Tautan Sosial Media Cepat -->
+            <div class="flex justify-center md:justify-start gap-5">
+                <a href="mailto:silabangabriel98@gmail.com" class="text-slate-400 hover:text-red-500 transition text-2xl" title="Kirim Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://wa.me/6281360983681" target="_blank" class="text-slate-400 hover:text-green-500 transition text-2xl" title="Chat WhatsApp">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/gabriel-silaban-b4993628b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="text-slate-400 hover:text-blue-600 transition text-2xl" title="Profil LinkedIn">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+        <div class="flex-1 flex justify-center md:justify-end">
+            <div class="relative w-64 h-64 sm:w-80 sm:h-80">
+                <div class="absolute inset-0 bg-blue-600 rounded-full translate-x-4 translate-y-4 opacity-20"></div>
+                <!-- Menggunakan gambar yang diunggah, dengan fallback inisial jika gambar lokal belum dimuat di browser -->
+                <img src="foto_gabriel.jpeg" alt="Foto Profil Gabriel Jonathan Yehuda Silaban" onerror="this.onerror=null;this.src='https://ui-avatars.com/api/?name=Gabriel+Silaban&background=2563eb&color=fff&size=512&font-size=0.33'" class="relative w-full h-full object-cover rounded-full border-4 border-white shadow-xl z-10">
+            </div>
+        </div>
+    </section>
+
+    <!-- Tentang Saya Section -->
+    <section id="tentang" class="py-20 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6">Tentang Saya</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-8 rounded"></div>
+            <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                Halo! Saya <strong>Gabriel Jonathan Yehuda Silaban</strong>, seorang mahasiswa Program Studi Teknik Industri di Institut Teknologi PLN yang memiliki antusiasme tinggi terhadap manajemen operasional, analisis sistem, dan optimalisasi proses. Saya percaya bahwa efisiensi yang baik berawal dari perencanaan dan eksekusi yang matang.
+            </p>
+            <p class="text-slate-600 text-lg leading-relaxed mb-6">
+                Di luar kegiatan akademis, saya secara proaktif membangun kapasitas diri melalui berbagai peran strategis di organisasi dan kepanitiaan. Pengalaman saya sebagai Ketua Koordinator Lapangan hingga staf divisi perlengkapan di berbagai acara besar telah membentuk saya menjadi individu yang taktis dalam manajemen logistik, terbiasa memimpin pergerakan tim, dan mampu mengambil keputusan yang tepat di bawah tekanan.
+            </p>
+            <p class="text-slate-600 text-lg leading-relaxed">
+                Saya menyadari bahwa perpaduan antara pemahaman analitis <i>(hard skills)</i> dan kecakapan interpersonal <i>(soft skills)</i> adalah kunci dalam menciptakan solusi yang berdampak. Dengan semangat belajar yang tinggi dan kemampuan adaptasi yang cepat, saya selalu siap untuk berkolaborasi, menghadapi tantangan baru, dan memberikan kontribusi terbaik di setiap kesempatan yang ada.
+            </p>
+        </div>
+    </section>
+
+    <!-- Pendidikan Section -->
+    <section id="pendidikan" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6 text-center">Pendidikan</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-12 rounded"></div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Education Card 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                    <div class="text-blue-600 font-semibold mb-2">2025 - Sekarang</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-1">Institut Teknologi PLN</h3>
+                    <p class="text-slate-600">Program Studi Teknik Industri</p>
+                </div>
+                <!-- Education Card 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-md transition">
+                    <div class="text-blue-600 font-semibold mb-2">2022 - 2025</div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-1">SMA NEGERI 2 TANJUNG MORAWA</h3>
+                    <p class="text-slate-600">Jurusan Ilmu Pengetahuan Alam (IPA)</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pengalaman Organisasi & Kepanitiaan Section -->
+    <section id="pengalaman" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6 text-center">Pengalaman & Riwayat Aktif</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-12 rounded"></div>
+
+            <!-- Bagian Organisasi -->
+            <h3 class="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                    <i class="fa-solid fa-building"></i>
+                </div>
+                Organisasi
+            </h3>
+
+            <div class="space-y-8 mb-16">
+                <!-- SOMBA -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-blue-600"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">SOMBA (Organisasi Daerah Sumatera Utara)</h3>
+                            <p class="text-slate-600 font-medium">Departemen Biro Inventaris</p>
+                        </div>
+                        <span class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2026 - Sekarang</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Mendata, merawat, dan mengelola seluruh aset serta inventaris milik organisasi secara berkala.</li>
+                        <li>Menyusun laporan ketersediaan, kondisi, dan kelayakan barang untuk dipresentasikan ke pengurus.</li>
+                        <li>Memfasilitasi dan mengawasi sirkulasi peminjaman barang untuk berbagai keperluan acara organisasi.</li>
+                    </ul>
+                </div>
+
+                <!-- Mapala Cakrawala -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-blue-700"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">MAHASISWA PECINTA ALAM "CAKRAWALA"</h3>
+                            <p class="text-slate-600 font-medium">Anggota Aktif</p>
+                        </div>
+                        <span class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2025 - Sekarang</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Melatih dan memperkuat kerja sama tim (teamwork) serta kepemimpinan lapangan melalui berbagai kegiatan penjelajahan alam.</li>
+                        <li>Ditempa untuk memiliki ketahanan mental, kedisiplinan, serta kemampuan adaptasi yang tinggi di kondisi lingkungan yang menantang.</li>
+                        <li>Mengembangkan kemampuan manajemen krisis, mitigasi risiko, dan pengambilan keputusan yang cepat saat menghadapi situasi tak terduga.</li>
+                    </ul>
+                </div>
+
+                <!-- Basket THUNDERS -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-blue-400"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">BASKET ITPLN "THUNDERS"</h3>
+                            <p class="text-slate-600 font-medium">Anggota Aktif</p>
+                        </div>
+                        <span class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2025 - Sekarang</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Aktif berpartisipasi dalam program latihan rutin dan berbagai kegiatan operasional tim basket kampus.</li>
+                        <li>Membangun kerja sama tim (teamwork) yang solid, komunikasi taktis, dan kedisiplinan melalui olahraga kompetitif.</li>
+                    </ul>
+                </div>
+
+                <!-- GSM -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-blue-500"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">STAF PSDM GSM</h3>
+                            <p class="text-slate-600 font-medium">INSTITUT TEKNOLOGI PLN</p>
+                        </div>
+                        <span class="inline-block bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2025 - Sekarang</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Terlibat dalam pengelolaan dan pendataan relawan pada kegiatan pengajaran dan sosial.</li>
+                        <li>Membantu koordinasi serta komunikasi antaranggota untuk mendukung kelancaran program.</li>
+                        <li>Mendukung peningkatan partisipasi, kedisiplinan, dan kesiapan relawan dalam setiap kegiatan.</li>
+                    </ul>
+                </div>
+
+                <!-- OSIS 1 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-slate-400"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">KETUA KOORDINATOR LAPANGAN OSIS</h3>
+                            <p class="text-slate-600 font-medium">SMAN 2 TANJUNG MORAWA</p>
+                        </div>
+                        <span class="inline-block bg-slate-200 text-slate-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2024 - 2025</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Memimpin pelaksanaan upacara bendera sekolah dan memastikan berjalan kondusif.</li>
+                        <li>Bertanggung jawab membagi tugas, memberi arahan, dan mengevaluasi kinerja tim di lapangan.</li>
+                        <li>Mengawasi jalannya berbagai acara dan kegiatan besar yang diadakan di lapangan sekolah.</li>
+                    </ul>
+                </div>
+
+                <!-- OSIS 2 -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-slate-300"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">WAKIL KETUA KOORDINATOR LAPANGAN OSIS</h3>
+                            <p class="text-slate-600 font-medium">SMAN 2 TANJUNG MORAWA</p>
+                        </div>
+                        <span class="inline-block bg-slate-200 text-slate-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2023 - 2024</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Mendampingi dan membantu ketua dalam perencanaan serta pelaksanaan kegiatan lapangan.</li>
+                        <li>Menjadi penghubung komunikasi utama antara ketua dengan seluruh anggota dan petugas lapangan.</li>
+                        <li>Mengkoordinasikan pergerakan anggota saat persiapan (setup) dan pelaksanaan acara.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bagian Kepanitiaan & Volunteer -->
+            <h3 class="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center text-orange-600">
+                    <i class="fa-solid fa-hands-holding-circle"></i>
+                </div>
+                Kepanitiaan & Volunteer
+            </h3>
+
+            <div class="space-y-8">
+                <!-- Symposium Energy -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-red-500"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">PANITIA SYMPOSIUM ENERGY</h3>
+                            <p class="text-slate-600 font-medium">Divisi Perlengkapan</p>
+                        </div>
+                        <span class="inline-block bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2026</span>
+                    </div>
+                    <p class="text-slate-500 text-sm mb-4 italic">Acara kegiatan inspiratif yang memadukan seminar nasional dan perlombaan, dirancang sebagai ruang bertumbuh, berinovasi, dan berprestasi bagi mahasiswa.</p>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Mengakomodasi seluruh kebutuhan logistik, sarana, dan prasarana untuk menunjang kelancaran seminar nasional maupun sesi perlombaan.</li>
+                        <li>Mengimplementasikan manajemen barang yang efektif, mulai dari tahap inventarisasi, pengadaan, hingga pendistribusian alat.</li>
+                        <li>Memastikan kesiapan operasional tata ruang dan venue acara agar sesuai dengan standar pelaksanaan kegiatan.</li>
+                    </ul>
+                </div>
+
+                <!-- Gebyar Mahasiswa -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-orange-500"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">PANITIA GEBYAR MAHASISWA ITPLN</h3>
+                            <p class="text-slate-600 font-medium">Divisi Perlengkapan</p>
+                        </div>
+                        <span class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2026</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Merencanakan dan menyediakan seluruh kebutuhan logistik serta perlengkapan untuk acara berskala besar kampus.</li>
+                        <li>Memastikan ketersediaan, kelayakan, dan keamanan alat-alat operasional selama acara berlangsung.</li>
+                        <li>Mengoordinasikan distribusi perlengkapan ke divisi lain secara taktis, serta bertanggung jawab penuh atas bongkar-pasang (setup & clear-up) venue.</li>
+                    </ul>
+                </div>
+
+                <!-- Paskah -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-orange-400"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">PANITIA PASKAH ITPLN</h3>
+                            <p class="text-slate-600 font-medium">Divisi Dana Usaha (Danusan)</p>
+                        </div>
+                        <span class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2026</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Merancang dan mengeksekusi strategi pencarian dana (fundraising) secara kreatif untuk memenuhi target anggaran acara.</li>
+                        <li>Melakukan penggalangan dana langsung melalui penjualan produk (merchandise/makanan) kepada internal kampus maupun eksternal.</li>
+                        <li>Menjalin kerja sama dan membuat penawaran kepada pihak sponsor/donatur untuk mendukung finansial acara.</li>
+                    </ul>
+                </div>
+
+                <!-- Natal -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-orange-300"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">PANITIA NATAL ITPLN</h3>
+                            <p class="text-slate-600 font-medium">Divisi Perlengkapan</p>
+                        </div>
+                        <span class="inline-block bg-orange-100 text-orange-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2026</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Mengakomodasi dan menyiapkan segala keperluan teknis dan non-teknis demi kelancaran ibadah serta perayaan.</li>
+                        <li>Berkoordinasi aktif dengan pihak vendor untuk proses sewa-menyewa alat (sound system, dekorasi, tenda, kursi).</li>
+                        <li>Mengelola sirkulasi dan menjaga kondisi keamanan barang pinjaman serta inventaris dari tahap persiapan hingga penutupan acara.</li>
+                    </ul>
+                </div>
+
+                <!-- Volunteer Pengajaran -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-yellow-400"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">GSM - ITPLN</h3>
+                            <p class="text-slate-600 font-medium">Volunteer Pengajaran</p>
+                        </div>
+                        <span class="inline-block bg-yellow-100 text-yellow-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2025</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Berperan aktif sebagai tenaga pendidik sukarela untuk membantu meningkatkan literasi serta memberikan edukasi kepada target sasaran.</li>
+                        <li>Membantu merancang penyampaian materi pembelajaran agar interaktif dan mudah dipahami.</li>
+                        <li>Mendampingi, memotivasi, dan memfasilitasi kebutuhan peserta didik selama proses kegiatan belajar berlangsung.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bagian Seminar & Forum -->
+            <h3 class="text-2xl font-bold text-slate-800 mb-6 mt-16 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-purple-100 flex items-center justify-center text-purple-600">
+                    <i class="fa-solid fa-microphone-lines"></i>
+                </div>
+                Seminar & Forum
+            </h3>
+
+            <div class="space-y-8">
+                <!-- SAYEF -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-purple-500"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">SOUTHEAST ASIA YOUTH ENERGY FORUM</h3>
+                            <p class="text-slate-600 font-medium">Diselenggarakan oleh: Society of Renewable Energy</p>
+                        </div>
+                        <span class="inline-block bg-purple-100 text-purple-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2025</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Berpartisipasi aktif dalam forum yang bertujuan mendorong pemuda untuk membentuk masa depan energi perkotaan yang adil dan inklusif di Asia Tenggara.</li>
+                        <li>Memperluas wawasan mengenai transisi energi, inovasi berkelanjutan, serta pentingnya peran generasi muda dalam mengatasi tantangan energi regional.</li>
+                    </ul>
+                </div>
+
+                <!-- Bicara Official Indonesia -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-purple-400"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">WEBINAR NASIONAL PUBLIC SPEAKING</h3>
+                            <p class="text-slate-600 font-medium">Diselenggarakan oleh: Bicara Official Indonesia</p>
+                        </div>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Mengikuti pelatihan komprehensif yang dirancang untuk melatih dan meningkatkan keterampilan <i>public speaking</i> serta kepercayaan diri mahasiswa.</li>
+                        <li>Mempelajari teknik komunikasi yang efektif, cara menyusun gagasan secara terstruktur, dan strategi presentasi profesional.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Bagian Kompetisi Akademik -->
+            <h3 class="text-2xl font-bold text-slate-800 mb-6 mt-16 flex items-center gap-3">
+                <div class="w-10 h-10 rounded-full bg-amber-100 flex items-center justify-center text-amber-600">
+                    <i class="fa-solid fa-trophy"></i>
+                </div>
+                Kompetisi Akademik
+            </h3>
+
+            <div class="space-y-8">
+                <!-- Pra-Olimpiade -->
+                <div class="bg-slate-50 p-8 rounded-2xl border border-slate-100 relative overflow-hidden hover:shadow-md transition">
+                    <div class="absolute top-0 left-0 w-2 h-full bg-amber-500"></div>
+                    <div class="flex flex-col md:flex-row md:items-center justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900">PRA-OLIMPIADE SAINS DAN MATEMATIKA</h3>
+                            <p class="text-slate-600 font-medium">Peserta Kompetisi</p>
+                        </div>
+                        <span class="inline-block bg-amber-100 text-amber-700 px-3 py-1 rounded-full text-sm font-semibold mt-2 md:mt-0">2023</span>
+                    </div>
+                    <ul class="list-disc list-inside text-slate-600 space-y-2 ml-2">
+                        <li>Berpartisipasi dalam ajang kompetisi untuk menguji kemampuan logika, analitis, dan pemecahan masalah di bidang sains dan matematika.</li>
+                        <li>Mengembangkan daya saing akademik serta melatih ketelitian dan manajemen waktu dalam pengerjaan soal tingkat olimpiade.</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Keahlian Section -->
+    <section id="keahlian" class="py-20 bg-slate-50">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-slate-900 mb-6 text-center">Keahlian Utama</h2>
+            <div class="w-16 h-1 bg-blue-600 mx-auto mb-12 rounded"></div>
+
+            <!-- Soft Skills -->
+            <h3 class="text-2xl font-bold text-slate-800 mb-6 flex items-center gap-3 justify-center">
+                <div class="w-10 h-10 rounded-full bg-green-100 flex items-center justify-center text-green-600">
+                    <i class="fa-solid fa-people-arrows"></i>
+                </div>
+                Soft Skills
+            </h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-users text-blue-600"></i> Kepemimpinan & Kerja tim</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-sitemap text-blue-600"></i> Koordinasi Kegiatan</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-comments text-blue-600"></i> Komunikasi Efektif</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-clock text-blue-600"></i> Manajemen Waktu</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-shield-halved text-blue-600"></i> Tanggung Jawab</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-lightbulb text-blue-600"></i> Pemecahan Masalah</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-bolt text-blue-600"></i> Adaptasi Cepat</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-book-open text-blue-600"></i> Kemauan Belajar Tinggi</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-boxes-stacked text-blue-600"></i> Manajemen Barang</span>
+            </div>
+
+            <!-- Hard Skills -->
+            <h3 class="text-2xl font-bold text-slate-800 mb-6 mt-16 flex items-center gap-3 justify-center">
+                <div class="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-600">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                Hard Skills
+            </h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-file-excel text-blue-600"></i> Microsoft Excel <span class="text-sm text-slate-400 font-normal ml-1">(Basic)</span></span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-file-word text-blue-600"></i> Microsoft Word <span class="text-sm text-slate-400 font-normal ml-1">(Intermediate)</span></span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-file-powerpoint text-blue-600"></i> Microsoft PowerPoint</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-palette text-blue-600"></i> Desain Grafis Canva</span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-language text-blue-600"></i> English <span class="text-sm text-slate-400 font-normal ml-1">(Intermediate)</span></span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-earth-europe text-blue-600"></i> Bahasa Prancis <span class="text-sm text-slate-400 font-normal ml-1">(Basic)</span></span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-film text-blue-600"></i> Video Editing <span class="text-sm text-slate-400 font-normal ml-1">(Basic)</span></span>
+                <span class="bg-white border border-slate-200 text-slate-700 px-6 py-3 rounded-full font-medium shadow-sm flex items-center gap-2"><i class="fa-solid fa-chart-line text-blue-600"></i> Data Analysis</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-white py-12">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+            <h3 class="text-2xl font-bold mb-4">Gabriel Jonathan Y.S.</h3>
+            <div class="flex flex-wrap justify-center gap-6 mb-8 text-slate-400">
+                <a href="mailto:silabangabriel98@gmail.com" class="hover:text-white transition flex items-center gap-2"><i class="fa-solid fa-envelope"></i> silabangabriel98@gmail.com</a>
+                <a href="https://wa.me/6281360983681" target="_blank" class="hover:text-white transition flex items-center gap-2"><i class="fa-brands fa-whatsapp"></i> 0813-6098-3681</a>
+                <a href="https://www.linkedin.com/in/gabriel-silaban-b4993628b?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" class="hover:text-white transition flex items-center gap-2"><i class="fa-brands fa-linkedin"></i> linkedin.com/in/gabriel-silaban-b4993628b</a>
+            </div>
+            <p class="text-slate-500 text-sm">© 2026 Gabriel Jonathan Yehuda Silaban. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
